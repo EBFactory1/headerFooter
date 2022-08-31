@@ -1,0 +1,195 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inter-American Development Bank</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script defer src="./idb-outline-en.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <idb-header>
+          <idb-language-switcher trigger-text="English"     trigger-label="Click to change language"    trigger-variant="none" slot="language">
+        <div slot="dropdown">
+          <ul class="links">
+            <h1>Pink chickens whoop whoop</h1>
+            <li hreflang="en" data-drupal-link-system-path="&lt;front&gt;" class="is-active"><a href="/en" class="language-link is-active" hreflang="en" data-drupal-link-system-path="&lt;front&gt;">English</a> </li>
+            <li hreflang="es" data-drupal-link-system-path="&lt;front&gt;"><a href="/es" class="language-link" hreflang="es" data-drupal-link-system-path="&lt;front&gt;">Espa&ntilde;ol</a> </li>
+            <li hreflang="pt-br" data-drupal-link-system-path="&lt;front&gt;"><a href="/pt-br" class="language-link" hreflang="pt-br" data-drupal-link-system-path="&lt;front&gt;">Portugu&ecirc;s</a> </li>
+            <li hreflang="fr" data-drupal-link-system-path="&lt;front&gt;"><a href="/fr" class="language-link" hreflang="fr" data-drupal-link-system-path="&lt;front&gt;">Fran&ccedil;ais</a> </li>
+          </ul>
+        </div>
+          </idb-language-switcher>
+          <div slot="mobile-open">
+        <a href="#" aria-label="Open Menu">
+          <outline-icon library="lucide" name="menu"></outline-icon>
+        </a>
+          </div>
+          <div slot="mobile-close">
+        <a href="#" aria-label="Close Menu">
+          <outline-icon library="lucide" name="x"></outline-icon>
+        </a>
+          </div>
+          <div slot="search">
+        <a href="#" aria-label="Search IDB">
+          <outline-icon library="lucide" name="search"></outline-icon>
+        </a>
+          </div>
+          <a href="/en" rel="home" slot="logo"    aria-label="Inter-American Development Bank Home">
+        <idb-logo logo="en"></idb-logo>
+          </a>
+          <idb-primary-menu slot="primary">s
+        <nav role="navigation" aria-labelledby="block-outline-frontend-main-menu-menu">
+          <idb-heading id="block-outline-frontend-main-menu-menu" hidden="true">
+            Main navigation
+          </idb-heading>
+          <div class="flex flex-col lg:flex-row lg:flex-wrap">
+            <idb-primary-menu-dropdown id="parent-link-id-1" trigger-text="Who we are" trigger-variant="none" trigger-size="small" trigger-url="">
+              <div slot="dropdown">
+                <div class="submenu-wrapper">
+                  <div class="submenu-inner">
+                    <ul class="submenu-column">
+                      <p class="group-heading">Strategy and vision 2025</p>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en/who-we-are/strategy-and-vision-2025/institutional-strategy">Institutional Strategy</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en/who-we-are/strategy-and-vision-2025/vision-2025">Vision 2025</a>
+                        </outline-link>
+                      </li>
+                    </ul>
+                    <ul class="submenu-column">
+                      <p class="group-heading">Organizational Structure</p>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="">How we are organized</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en">Our team</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en">Country Offices</a>
+                        </outline-link>
+                      </li>
+                    </ul>
+                    <ul class="submenu-column">
+                      <p class="group-heading">Transparency</p>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en/who-we-are/independent-oversight">Independent Oversight</a>
+                        </outline-link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </idb-primary-menu-dropdown>
+            <idb-primary-menu-dropdown id="parent-link-id-2" trigger-text="What's our impact" trigger-variant="none" trigger-size="small" trigger-url="/en/whats-our-impact">
+            </idb-primary-menu-dropdown>
+            <idb-primary-menu-dropdown id="parent-link-id-3" trigger-text="How we can work together" trigger-variant="none" trigger-size="small" trigger-url="/en/how-we-can-work-together">
+              <div slot="dropdown">
+                <div class="submenu-wrapper">
+                  <div class="submenu-inner">
+                    <ul class="submenu-column">
+                      <p class="group-heading">Proposals for</p>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en/how-we-can-work-together/private-sector-info-card">Private Entities</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="">Public Entities</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en">Entrepreneurs</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="">Civil Society</a>
+                        </outline-link>
+                      </li>
+                    </ul>
+                    <ul class="submenu-column">
+                      <p class="group-heading">Tenders for</p>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="">Vendors</a>
+                        </outline-link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </idb-primary-menu-dropdown>
+            <idb-primary-menu-dropdown id="parent-link-id-4" trigger-text="Sharing knowledge" trigger-variant="none" trigger-size="small" trigger-url="/en/sharing-knowledge">
+              <div slot="dropdown">
+                <div class="submenu-wrapper">
+                  <div class="submenu-inner">
+                    <ul class="submenu-column">
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en">About IDBAcademy</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="">Blogs</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="">Courses</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="/en">Numbers for Development</a>
+                        </outline-link>
+                      </li>
+                      <li class="submenu-item">
+                        <outline-link>
+                          <a href="">Publications</a>
+                        </outline-link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </idb-primary-menu-dropdown>
+          </div>
+        </nav>
+          </idb-primary-menu>
+          <div slot="utility">
+        <idb-utility-menu variant="header">
+          <ul class="header-utility">
+            <li>
+              <outline-link>
+                <a href="/en/whats-our-impact/press" data-drupal-link-system-path="node/46">Press</a>
+              </outline-link>
+            </li>
+            <li>
+              <outline-link>
+                <a href="/en/how-we-can-work-together/investors" data-drupal-link-system-path="node/47">Investors</a>
+              </outline-link>
+            </li>
+          </ul>
+        </idb-utility-menu>
+          </div>
+        </idb-header>
+      </div>
+    </header>
+    <script src="./idb-outline-en.js"></script>
+  </body>
+</html>
